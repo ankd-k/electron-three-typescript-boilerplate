@@ -1,0 +1,25 @@
+{
+  "name": "electron-three-typescript-boilerplate",
+  "version": "1.0.0",
+  "main": "electron-main.js",
+  "repository": "https://github.com/ankd-k/electron-three-typescript-boilerplate.git",
+  "author": "ankd-k <ankd.2653@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "electron ./"
+  },
+  "dependencies": {
+    "three": "^0.105.2"
+  },
+  "devDependencies": {
+    "electron": "^5.0.3",
+    "ts-loader": "^6.0.2",
+    "tslint": "^5.17.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3"
+  }
+}
